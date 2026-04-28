@@ -1,0 +1,14 @@
+{
+    "name": "javascript-game",
+    "version": "1.0.0",
+    "description": "A simple javascript game",
+    "main": "game.js",
+    "scripts": {
+      "start": "serve"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "serve": "^14.2.5"
+    }
+  }

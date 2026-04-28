@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Column - Team 1 -->
+        <div class="column team-column blocked">
+            <div class="team-header team1-header">TEAM 1</div>
+            <div class="score" id="score1">0</div>
+            <div class="question-display" id="question1">Waiting for game to start...</div>
+            <div class="calculator">
+                <div class="calc-display" id="display1">0</div>
+                <button class="calc-btn" onclick="appendNumber(1, '7')">7</button>
+                <button class="calc-btn" onclick="appendNumber(1, '8')">8</button>
+                <button class="calc-btn" onclick="appendNumber(1, '9')">9</button>
+                <button class="calc-btn" onclick="appendNumber(1, '4')">4</button>
+                <button class="calc-btn" onclick="appendNumber(1, '5')">5</button>
+                <button class="calc-btn" onclick="appendNumber(1, '6')">6</button>
+                <button class="calc-btn" onclick="appendNumber(1, '1')">1</button>
+                <button class="calc-btn" onclick="appendNumber(1, '2')">2</button>
+                <button class="calc-btn" onclick="appendNumber(1, '3')">3</button>
+                <button class="calc-btn zero" onclick="appendNumber(1, '0')">0</button>
+                <button class="calc-btn clear" onclick="clearDisplay(1)">C</button>
+                <button class="calc-btn submit" onclick="submitAnswer(1)">SUBMIT</button>
+            </div>
+        </div>
+
+        <!-- Middle Column - Animation -->
+        <div class="column middle-column">
+            <div class="game-header">
+                <h1>🏆 Teams Quiz Game 🏆</h1>
+                <p>Race to 10 correct answers!</p>
+            </div>
+            
+            <div class="status" id="status">Press START to begin the game</div>
+            
+            <div class="current-question">
+                <h2>Current Challenge</h2>
+                <p id="currentQuestionText">No active question</p>
+            </div>
+
+            <div class="race-track">
+                <div class="tug-stage">
+                    <video
+                        class="tug-video"
+                        id="tugVideo"
+                        src="assets/idle.mp4"
+                        autoplay
+                        muted
+                        loop
+                        playsinline
+                    ></video>
+                    <div class="tug-center-line" aria-hidden="true"></div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btn btn-start" onclick="startGame()">START GAME</button>
+                <button class="btn btn-reset" onclick="resetGame()">RESET</button>
+            </div>
+        </div>
+
+        <!-- Right Column - Team 2 -->
+        <div class="column team-column blocked">
+            <div class="team-header team2-header">TEAM 2</div>
+            <div class="score" id="score2">0</div>
+            <div class="question-display" id="question2">Waiting for game to start...</div>
+            <div class="calculator">
+                <div class="calc-display" id="display2">0</div>
+                <button class="calc-btn" onclick="appendNumber(2, '7')">7</button>
+                <button class="calc-btn" onclick="appendNumber(2, '8')">8</button>
+                <button class="calc-btn" onclick="appendNumber(2, '9')">9</button>
+                <button class="calc-btn" onclick="appendNumber(2, '4')">4</button>
+                <button class="calc-btn" onclick="appendNumber(2, '5')">5</button>
+                <button class="calc-btn" onclick="appendNumber(2, '6')">6</button>
+                <button class="calc-btn" onclick="appendNumber(2, '1')">1</button>
+                <button class="calc-btn" onclick="appendNumber(2, '2')">2</button>
+                <button class="calc-btn" onclick="appendNumber(2, '3')">3</button>
+                <button class="calc-btn zero" onclick="appendNumber(2, '0')">0</button>
+                <button class="calc-btn clear" onclick="clearDisplay(2)">C</button>
+                <button class="calc-btn submit" onclick="submitAnswer(2)">SUBMIT</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="winner-banner" id="winnerBanner">
+        <h2 id="winnerText">🎉 WINNER! 🎉</h2>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
