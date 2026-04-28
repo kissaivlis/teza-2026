@@ -1,13 +1,13 @@
 {
-    "name": "javascript-game",
+    "name": "teza-buimestru-silvia",
     "version": "1.0.0",
-    "description": "A simple javascript game",
+    "description": "Educational game-based application for group activities.",
     "main": "game.js",
     "scripts": {
       "start": "serve"
     },
-    "author": "",
-    "license": "ISC",
+    "author": "Buimestru Silvia",
+    "license": "NO",
     "dependencies": {
       "serve": "^14.2.5"
     }
