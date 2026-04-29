@@ -6,7 +6,7 @@
     { "question": "What is 80 + 20 ?", "answer": "100" },
     { "question": "What is 10 + 90 ?", "answer": "100" },
     { "question": "What is 75 - 25 ?", "answer": "50" },
-    { "question": "What is 55 - 10 ?", "answer": "45" },
+    { "question": "What is 50 + 10 ?", "answer": "60" },
     { "question": "What is 15 + 15 ?", "answer": "30" },
-    { "question": "What is 75 - 25 ?", "answer": "50" }
+    { "question": "What is 75 - 50 ?", "answer": "25" }
 ]
