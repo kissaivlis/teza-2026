@@ -1,12 +1,12 @@
 [
-    { "question": "What is 25 + 25?", "answer": "50" },
-    { "question": "What is 85 + 13?", "answer": "98" },
-    { "question": "What is 42 - 3?", "answer": "39" },
-    { "question": "What is 33 - 12?", "answer": "21" },
-    { "question": "What is 78 + 13?", "answer": "91" },
-    { "question": "What is 67 + 23", "answer": "90" },
-    { "question": "What is 49 - 20?", "answer": "29" },
-    { "question": "What is 57- 33?", "answer": "24" },
-    { "question": "What is 19 + 19?", "answer": "38" },
-    { "question": "What is 75 - 18?", "answer": "57" }
+    { "question": "What is 25 + 25 ?", "answer": "50" },
+    { "question": "What is 30 + 30 ?", "answer": "60" },
+    { "question": "What is 50 - 10 ?", "answer": "40" },
+    { "question": "What is 30 - 10 ?", "answer": "20" },
+    { "question": "What is 80 + 20 ?", "answer": "100" },
+    { "question": "What is 10 + 90 ?", "answer": "100" },
+    { "question": "What is 75 - 25 ?", "answer": "50" },
+    { "question": "What is 55 - 10 ?", "answer": "45" },
+    { "question": "What is 15 + 15 ?", "answer": "30" },
+    { "question": "What is 75 - 25 ?", "answer": "50" }
 ]
